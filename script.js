@@ -3,16 +3,23 @@ makeDraggable(document.querySelector('#aboutWindow'));
 makeDraggable(document.querySelector('#contactWindow'));
 
 
-//Close the window on click of a red button
-document.addEventListener('click', e => {
-	if (e.target.closest('.X')) {
-		e.target.closest('.outer').remove();
-	}
+
+
+const button = document.getElementById('contactWindowX');
+const button2 = document.getElementById('aboutWindowX');
+const targetWindow = document.getElementById('contactWindow');
+const targetWindow2 = document.getElementById('aboutWindow');
+
+
+button.addEventListener('click', function() {
+  // 3. Change the display property to 'none'
+  targetWindow.style.display = 'none';
 });
 
-
-
-
+button2.addEventListener('click', function() {
+  // 3. Change the display property to 'none'
+  targetWindow2.style.display = 'none';
+});
 
 
 
