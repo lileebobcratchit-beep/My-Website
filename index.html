@@ -11,29 +11,59 @@
     <link rel="stylesheettype" href="https://use.typekit.net/vfh7exn.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://imgur.com">
+    <link rel="stylesheet" href=""
     
     
 </head>
+<style>
+    @font-face {
+        font-family: 'Spongy-Thin' sans-serif;
+        src: url('C:\Desktop\Porjects\website MASTER\spongy\SpongyThin_PERSONAL_USE_ONLY.otf') format('opentype');
+        font-weight: Thin;
+    }
+    @font-face {
+        font-family: 'Spongy' sans-serif;
+        src: url('C:\Desktop\Porjects\website MASTER\spongy\Spongy_PERSONAL_USE_ONLY.otf') format('opentype');
+        font-weight: Regular;
+    }
+    @font-face {
+        font-family: 'Spongy-Bold' sans-serif;
+        src: url('C:\Desktop\Porjects\website MASTER\spongy\SpongyBold_PERSONAL_USE_ONLY.otf') format('opentype');
+        font-weight: Bold;
+    }
+    @font-face {
+        font-family: 'Spongy-Outline' sans-serif;
+        src: url('C:\Desktop\Porjects\website MASTER\spongy\SpongyOutline_PERSONAL_USE_ONLY.otf') format('opentype');
+        font-weight: Outline;
+    }
+    @font-face {
+        font-family: 'Spongy-Solid' sans-serif;
+        src: url('C:\Desktop\Porjects\website MASTER\spongy\SpongySolid_PERSONAL_USE_ONLY.otf') format('opentype');
+        font-weight: Solid;
+    }
+</style>
 <body style="background-color: #f2f2f2;">
 
     <header class="header"> 
         <a href="index.html" class="logo"><img src="https://drive.google.com/thumbnail?id=1tHkcorIRzBFupyNiEqzGtpxMfzhPnZlo" alt=""></a>
-        
+        <media-tooltip id="home-btn-tooltip" side="top" class="media-surface media-tooltip">
+            To the Future!
+        </media-tooltip>
         <ul class="nav-links">
             <li>
-                <a href="#aboutWindow" id="about">About</a>
+                <a href="#aboutWindow" id="about">ABOUT</a>
             </li>
             <li>
-                <a href="work.html">Work</a> 
+                <a href="work.html">WORK</a> 
             </li>
             <li>
-                <a href="#contactWindow" id="contact">Contact</a> 
+                <a href="#contactWindow" id="contact">CONTACT</a> 
             </li>
         </ul>
 
         <i class="fa-solid fa-bars-staggered" id="menu"></i>
         
-        <a href="https://linktr.ee/loudn0ises" class="visit-btn">Linktree</a>
+        <a href="https://linktr.ee/loudn0ises" class="visit-btn">LINKTREE</a>
     </header>
     <div class="home-header"></div>
     <div class="home-header2"></div>
@@ -42,14 +72,15 @@
     <div class="outer contact scale-in-center" id="contactWindow">
         <div class="popheader2">
             <div class="title2">CONTACT</div>
-            <button class="X"><i class="fa-solid fa-xmark" id="contactWindowX"></i></button>
+                <a href="index.html" class="x-link"><i class="fa-solid fa-xmark" id="contactWindowX" z-index="9999">
+                </i></a>
         </div>
         <div class="inner contact">
             <div class="contact-container">
                 <h1>📬 You've Got Mail 📬</h1>
                 <span class="contact-container-span">-------------------------------------------------</span>
                 <div class="contact-column">
-                    <img src="https://drive.google.com/thumbnail?id=1tHkcorIRzBFupyNiEqzGtpxMfzhPnZlo" alt="">
+                    <img src="main assets (boxes etc)/output-onlinegiftools.gif" alt="">
                     <div class="name-header2">
                         <span class="contact-container-span">Let's work together!</span>
                         <br>
@@ -71,7 +102,9 @@
     <div class="outer about scale-in-center" id="aboutWindow">
         <div class="popheader">
             <div class="title">ABOUT</div>
-            <i class="fa-solid fa-xmark" id="aboutWindowX"></i>
+                <a href="index.html" class="x-link"><i class="fa-solid fa-xmark" id="aboutWindowX" z-index="9999">
+                </i></a>
+            </button>
         </div>
         <div class="inner about">
             <div class="about-container">
@@ -81,7 +114,7 @@
                         <div class="name-header">
                             <h1>Lilee Kracht🍋</h1>
                             <span class="about-container-span">Motion Designer ✦ Illustrator ✦ Animator</span>
-                            <h3>🐝 SCAD Student - Rockledge, Florida 🍊</h3>
+                            <h3>🐝 SCAD Student - Florida 🍊</h3>
                         </div>
                     </div>
                     <div class="info-box">
@@ -147,10 +180,10 @@
                 <script type="module" src="https://cdn.jsdelivr.net/npm/@videojs/html/cdn/video.js"></script>
                     <video-player>
                         <media-container class="media-default-skin media-default-skin--video">
-                            <video src="https://stream.mux.com/bzxEiD024vo4ZMd8632CEr7TcELf3HPQtuqQIjmWU22s.m3u8" playsinline></video>
+                            <video src="Content (Video)/MOME390_749_A02_LileeKracht_DemoReel.mp4" playsinline></video>
 
                             <media-poster>
-                            <img src="https://image.mux.com/bzxEiD024vo4ZMd8632CEr7TcELf3HPQtuqQIjmWU22s/thumbnail.png?width=214&height=121&time=3" />
+                            <img src="https://drive.google.com/thumbnail?id=1admbFEnx_5Vo5WA91AAPWi7S4Tmx8D1J" />
                             </media-poster>
 
                             <media-buffering-indicator class="media-buffering-indicator">
@@ -162,7 +195,7 @@
                             <media-error-dialog class="media-error">
                             <div class="media-error__dialog media-surface">
                                 <div class="media-error__content">
-                                <media-alert-dialog-title class="media-error__title">Something went wrong.</media-alert-dialog-title>
+                                <media-alert-dialog-title class="media-error__title">Oops!!! Something is wrong!</media-alert-dialog-title>
                                 <media-alert-dialog-description class="media-error__description"></media-alert-dialog-description>
                                 </div>
                                 <div class="media-error__actions">
@@ -179,7 +212,7 @@
                                     <svg class="media-icon media-icon--play" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="m14.051 10.723-7.985 4.964a1.98 1.98 0 0 1-2.758-.638A2.06 2.06 0 0 1 3 13.964V4.036C3 2.91 3.895 2 5 2c.377 0 .747.109 1.066.313l7.985 4.964a2.057 2.057 0 0 1 .627 2.808c-.16.257-.373.475-.627.637"/></svg>
                                     <svg class="media-icon media-icon--pause" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><rect width="5" height="14" x="2" y="2" fill="currentColor" rx="1.75"/><rect width="5" height="14" x="11" y="2" fill="currentColor" rx="1.75"/></svg>
                                 </media-play-button>
-                                <media-tooltip id="play-tooltip" side="top" class="media-surface media-tooltip"></media-tooltip>
+                                <media-tooltip id="play-tooltip" side="top" class="media-surface media-tooltip">Start</media-tooltip>
 
                                 <media-seek-button commandfor="seek-backward-tooltip" seconds="-10" class="media-button media-button--subtle media-button--icon media-button--seek">
                                     <span class="media-icon__container">
@@ -188,7 +221,7 @@
                                     </span>
                                 </media-seek-button>
                                 <media-tooltip id="seek-backward-tooltip" side="top" class="media-surface media-tooltip">
-                                    Seek backward 10 seconds
+                                    To the Past!
                                 </media-tooltip>
 
                                 <media-seek-button commandfor="seek-forward-tooltip" seconds="10" class="media-button media-button--subtle media-button--icon media-button--seek">
@@ -198,7 +231,7 @@
                                     </span>
                                 </media-seek-button>
                                 <media-tooltip id="seek-forward-tooltip" side="top" class="media-surface media-tooltip">
-                                    Seek forward 10 seconds
+                                    To the Future!
                                 </media-tooltip>
                                 </div>
 
@@ -223,7 +256,7 @@
                                 <div class="media-button-group">
                                 <media-playback-rate-button commandfor="playback-rate-tooltip"  class="media-button media-button--subtle media-button--icon media-button--playback-rate"></media-playback-rate-button>
                                 <media-tooltip id="playback-rate-tooltip" side="top" class="media-surface media-tooltip">
-                                    Toggle playback rate
+                                    Speedy
                                 </media-tooltip>
 
                                 <media-mute-button commandfor="video-volume-popover" class="media-button media-button--subtle media-button--icon media-button--mute">
@@ -231,6 +264,9 @@
                                     <svg class="media-icon media-icon--volume-low" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M.714 6.008h3.072l4.071-3.857c.5-.376 1.143 0 1.143.601V15.28c0 .602-.643.903-1.143.602l-4.071-3.858H.714c-.428 0-.714-.3-.714-.752V6.76c0-.451.286-.752.714-.752m10.568.59a.91.91 0 0 1 0-1.316.91.91 0 0 1 1.316 0c1.203 1.203 1.47 2.216 1.522 3.208q.012.255.011.51c0 1.16-.358 2.733-1.533 3.803a.7.7 0 0 1-.298.156c-.382.106-.873-.011-1.018-.156a.91.91 0 0 1 0-1.316c.57-.57.995-1.551.995-2.487 0-.944-.26-1.667-.995-2.402"/></svg>
                                     <svg class="media-icon media-icon--volume-high" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M15.6 3.3c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4C15.4 5.9 16 7.4 16 9s-.6 3.1-1.8 4.3c-.4.4-.4 1 0 1.4.2.2.5.3.7.3.3 0 .5-.1.7-.3C17.1 13.2 18 11.2 18 9s-.9-4.2-2.4-5.7"/><path fill="currentColor" d="M.714 6.008h3.072l4.071-3.857c.5-.376 1.143 0 1.143.601V15.28c0 .602-.643.903-1.143.602l-4.071-3.858H.714c-.428 0-.714-.3-.714-.752V6.76c0-.451.286-.752.714-.752m10.568.59a.91.91 0 0 1 0-1.316.91.91 0 0 1 1.316 0c1.203 1.203 1.47 2.216 1.522 3.208q.012.255.011.51c0 1.16-.358 2.733-1.533 3.803a.7.7 0 0 1-.298.156c-.382.106-.873-.011-1.018-.156a.91.91 0 0 1 0-1.316c.57-.57.995-1.551.995-2.487 0-.944-.26-1.667-.995-2.402"/></svg>
                                 </media-mute-button>
+                                <media-tooltip id="mute-tooltip" side="top" class="media-surface media-tooltip">
+                                    Hush Hush!
+                                </media-tooltip>
 
                                 <media-popover id="video-volume-popover" open-on-hover delay="200" close-delay="100" side="top" class="media-surface media-popover media-popover--volume">
                                     <media-volume-slider class="media-slider" orientation="vertical" thumb-alignment="edge">
@@ -245,25 +281,25 @@
                                     <svg class="media-icon media-icon--captions-off" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><rect width="16" height="12" x="1" y="3" stroke="currentColor" stroke-width="2" rx="3"/><rect width="3" height="2" x="3" y="8" fill="currentColor" rx="1"/><rect width="2" height="2" x="13" y="8" fill="currentColor" rx="1"/><rect width="4" height="2" x="11" y="11" fill="currentColor" rx="1"/><rect width="5" height="2" x="7" y="8" fill="currentColor" rx="1"/><rect width="7" height="2" x="3" y="11" fill="currentColor" rx="1"/></svg>
                                     <svg class="media-icon media-icon--captions-on" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M15 2a3 3 0 0 1 3 3v8a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3zM4 11a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2zm8 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2zM4 8a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2zm4 0a1 1 0 0 0 0 2h3a1 1 0 1 0 0-2zm6 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/></svg>
                                 </media-captions-button>
-                                <media-tooltip id="captions-tooltip" side="top" class="media-surface media-tooltip"></media-tooltip>
+                                <media-tooltip id="captions-tooltip" side="top" class="media-surface media-tooltip">Captions</media-tooltip>
 
                                 <media-cast-button commandfor="cast-tooltip" class="media-button media-button--subtle media-button--icon media-button--cast">
                                     <svg class="media-icon media-icon--cast-enter" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M.75 13.25c1.38 0 2.5 1.085 2.5 2.5V16H.5v-2.75z"/><path fill="currentColor" d="M.75 10.25c3.04 0 5.5 2.46 5.5 5.5V16h-2v-.25c0-1.96-1.567-3.5-3.5-3.5H.5v-2z"/><path fill="currentColor" d="M.75 7.25a8.5 8.5 0 0 1 8.5 8.5V16h-2v-.25c0-3.611-2.91-6.5-6.5-6.5H.5v-2z"/><path fill="currentColor" d="M17.5 14.25c0 .963-.787 1.75-1.75 1.75h-5.5v-2h5.25V4h-13v2.25h-2v-2.5C.5 2.787 1.287 2 2.25 2h13.5c.963 0 1.75.787 1.75 1.75z"/></svg>
                                     <svg class="media-icon media-icon--cast-exit" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M.75 13.25c1.38 0 2.5 1.085 2.5 2.5V16H.5v-2.75z"/><path fill="currentColor" d="M.75 10.25c3.04 0 5.5 2.46 5.5 5.5V16h-2v-.25c0-1.96-1.567-3.5-3.5-3.5H.5v-2z"/><path fill="currentColor" d="M.75 7.25a8.5 8.5 0 0 1 8.5 8.5V16h-2v-.25c0-3.611-2.91-6.5-6.5-6.5H.5v-2z"/><path fill="currentColor" d="M17.5 14.25c0 .963-.787 1.75-1.75 1.75h-5.5v-2h5.25V4h-13v2.25h-2v-2.5C.5 2.787 1.287 2 2.25 2h13.5c.963 0 1.75.787 1.75 1.75z"/><path fill="currentColor" d="M4 5.5v1.164c2.143-.021 5.979 3.836 5.979 5.979H14V5.5z"/></svg>
                                 </media-cast-button>
-                                <media-tooltip id="cast-tooltip" side="top" class="media-surface media-tooltip"></media-tooltip>
+                                <media-tooltip id="cast-tooltip" side="top" class="media-surface media-tooltip">Cast a Spell!</media-tooltip>
 
                                 <media-pip-button commandfor="pip-tooltip" class="media-button media-button--subtle media-button--icon media-button--pip">
                                     <svg class="media-icon media-icon--pip-enter" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M13 2a4 4 0 0 1 4 4v2.035A3.5 3.5 0 0 0 16.5 8H15V6.273C15 5.018 13.96 4 12.679 4H4.32C3.04 4 2 5.018 2 6.273v5.454C2 12.982 3.04 14 4.321 14H6v1.5q0 .255.035.5H4a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4z"/><rect width="10" height="7" x="8" y="10" fill="currentColor" rx="2"/><path fill="currentColor" d="M7.129 5.547a.6.6 0 0 0-.656.13L3.677 8.473A.6.6 0 0 0 4.102 9.5h2.796c.332 0 .602-.27.602-.602V6.103a.6.6 0 0 0-.371-.556"/></svg>
                                     <svg class="media-icon media-icon--pip-exit" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M13 2a4 4 0 0 1 4 4v2.036A3.5 3.5 0 0 0 16.5 8H15V6.273C15 5.018 13.96 4 12.679 4H4.32C3.04 4 2 5.018 2 6.273v5.454C2 12.982 3.04 14 4.321 14H6v1.5q0 .255.036.5H4a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4z"/><rect width="10" height="7" x="8" y="10" fill="currentColor" rx="2"/><path fill="currentColor" d="M4.871 10.454a.6.6 0 0 0 .656-.131l2.796-2.796A.6.6 0 0 0 7.898 6.5H5.102a.603.603 0 0 0-.602.602v2.795a.6.6 0 0 0 .371.556"/></svg>
                                 </media-pip-button>
-                                <media-tooltip id="pip-tooltip" side="top" class="media-surface media-tooltip"></media-tooltip>
+                                <media-tooltip id="pip-tooltip" side="top" class="media-surface media-tooltip">Teeny Tiny Screen</media-tooltip>
 
                                 <media-fullscreen-button commandfor="fullscreen-tooltip" class="media-button media-button--subtle media-button--icon media-button--fullscreen">
                                     <svg class="media-icon media-icon--fullscreen-enter" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M9.57 3.617A1 1 0 0 0 8.646 3H4c-.552 0-1 .449-1 1v4.646a.996.996 0 0 0 1.001 1 1 1 0 0 0 .706-.293l4.647-4.647a1 1 0 0 0 .216-1.089m4.812 4.812a1 1 0 0 0-1.089.217l-4.647 4.647a.998.998 0 0 0 .708 1.706H14c.552 0 1-.449 1-1V9.353a1 1 0 0 0-.618-.924"/></svg>
                                     <svg class="media-icon media-icon--fullscreen-exit" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" aria-hidden="true" viewBox="0 0 18 18"><path fill="currentColor" d="M7.883 1.93a.99.99 0 0 0-1.09.217L2.146 6.793A.998.998 0 0 0 2.853 8.5H7.5c.551 0 1-.449 1-1V2.854a1 1 0 0 0-.617-.924m7.263 7.57H10.5c-.551 0-1 .449-1 1v4.646a.996.996 0 0 0 1.001 1.001 1 1 0 0 0 .706-.293l4.646-4.646a.998.998 0 0 0-.707-1.707z"/></svg>
                                 </media-fullscreen-button>
-                                <media-tooltip id="fullscreen-tooltip" side="top" class="media-surface media-tooltip"></media-tooltip>
+                                <media-tooltip id="fullscreen-tooltip" side="top" class="media-surface media-tooltip">Big Screen</media-tooltip>
                                 </div>
                             </media-tooltip-group>
                             </media-controls>
@@ -507,6 +543,9 @@
             </svg>
         </div>
    </div>
+       <!-- Elfsight Audio Player | Untitled Audio Player -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <div class="elfsight-app-ec2c0fd1-834d-4008-a81e-a6fb5161e37e" data-elfsight-app-lazy></div>
     <footer>
         <br>
         <div class="footer-box">
@@ -536,19 +575,15 @@
                 </div>
             </div>
             
-            <div class="col-right">
-                <p>Hello world! I'm a 19 year old artist from Florida who loves rodents, language learning, and trying new things! I am a motion designer, illustrator, and animator who loves kids movies, as many different music genres as I can listen to, and MMA. Wanna nerd out about something? Hit me up on my socials! Wanna work together? Even better!</p>
-            </div>
-            
             <div class="col-left">
                 <br>
                 <div class="col-box">
                     <span class="col-box-span"><i class="fa-solid fa-map-location-dot"></i></span>
-                    <span class="col-box-span">Rockledge, Florida USA</span>
+                    <span class="col-box-span">Florida, USA</span>
                 </div>
                 <div class="col-box">
                         <span class="col-box-span"><i class="fa-light fa-phone-flip"></i></span>
-                        <span class="col-box-span">1•321•408•4681</span>
+                        <span class="col-box-span">@loudn0ises</span>
                 </div>
                 <div class="col-box">
                         <span class="col-box-span"><i class="fa-regular fa-envelope-open"></i></span>
