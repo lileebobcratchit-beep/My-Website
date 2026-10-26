@@ -613,7 +613,6 @@ html,body {
     align-items: center;
     justify-content: center;
     top: 20em;
-    left: 50%;
     transform: translateX(270%);
     rotate: 14deg;
 }
