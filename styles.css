@@ -605,31 +605,35 @@ html,body {
     justify-content: center;
     top: 15em;
     left: 50%;
-    transform: translateX(-350%);
+    transform: translateX(-370%);
+    rotate: 7deg
 }
 .outer.sticky.Illu {
     display: block;
     align-items: center;
     justify-content: center;
-    top: 30em;
+    top: 20em;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(270%);
+    rotate: 14deg;
 }
 .outer.sticky.Vis {
     display: block;
     align-items: center;
     justify-content: center;
-    top: 40em;
+    top: 30em;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-370%);
+    rotate: -13deg;
 }
 .outer.sticky.Video {
     display: block;
     align-items: center;
     justify-content: center;
-    top: 50em;
+    top: 10em;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(250%);
+    rotate: -14deg;
 }
 
 .outer.sticky.work .Illu-text {
@@ -1384,7 +1388,7 @@ reel-player {
     font-size: 18px;
     line-height: 1.8;
     padding: 20px 50px;
-    width: 100%;
+    width: 87%;
 }
 .bigheader {
     font-size: 50px;
@@ -1415,6 +1419,7 @@ reel-player {
     justify-content: normal;
     flex-direction: column;
     width: 49%;
+    padding: 0px 10px;
 }
 .artbox .artcolumn img {
     width: 100%;
